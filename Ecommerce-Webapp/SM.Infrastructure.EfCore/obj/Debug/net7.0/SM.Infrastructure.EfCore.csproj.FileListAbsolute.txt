@@ -1,0 +1,17 @@
+G:\VS Project\Ecommerce\Ecommerce-Webapp\SM.Infrastructure.EfCore\bin\Debug\net7.0\SM.Infrastructure.EfCore.deps.json
+G:\VS Project\Ecommerce\Ecommerce-Webapp\SM.Infrastructure.EfCore\bin\Debug\net7.0\SM.Infrastructure.EfCore.runtimeconfig.json
+G:\VS Project\Ecommerce\Ecommerce-Webapp\SM.Infrastructure.EfCore\bin\Debug\net7.0\SM.Infrastructure.EfCore.dll
+G:\VS Project\Ecommerce\Ecommerce-Webapp\SM.Infrastructure.EfCore\bin\Debug\net7.0\SM.Infrastructure.EfCore.pdb
+G:\VS Project\Ecommerce\Ecommerce-Webapp\SM.Infrastructure.EfCore\bin\Debug\net7.0\ECS.Domain.dll
+G:\VS Project\Ecommerce\Ecommerce-Webapp\SM.Infrastructure.EfCore\bin\Debug\net7.0\ECS.Domain.pdb
+G:\VS Project\Ecommerce\Ecommerce-Webapp\SM.Infrastructure.EfCore\obj\Debug\net7.0\SM.Infrastructure.EfCore.csproj.AssemblyReference.cache
+G:\VS Project\Ecommerce\Ecommerce-Webapp\SM.Infrastructure.EfCore\obj\Debug\net7.0\SM.Infrastructure.EfCore.GeneratedMSBuildEditorConfig.editorconfig
+G:\VS Project\Ecommerce\Ecommerce-Webapp\SM.Infrastructure.EfCore\obj\Debug\net7.0\SM.Infrastructure.EfCore.AssemblyInfoInputs.cache
+G:\VS Project\Ecommerce\Ecommerce-Webapp\SM.Infrastructure.EfCore\obj\Debug\net7.0\SM.Infrastructure.EfCore.AssemblyInfo.cs
+G:\VS Project\Ecommerce\Ecommerce-Webapp\SM.Infrastructure.EfCore\obj\Debug\net7.0\SM.Infrastructure.EfCore.csproj.CoreCompileInputs.cache
+G:\VS Project\Ecommerce\Ecommerce-Webapp\SM.Infrastructure.EfCore\obj\Debug\net7.0\SM.Infrastructure.EfCore.csproj.CopyComplete
+G:\VS Project\Ecommerce\Ecommerce-Webapp\SM.Infrastructure.EfCore\obj\Debug\net7.0\SM.Infrastructure.EfCore.dll
+G:\VS Project\Ecommerce\Ecommerce-Webapp\SM.Infrastructure.EfCore\obj\Debug\net7.0\refint\SM.Infrastructure.EfCore.dll
+G:\VS Project\Ecommerce\Ecommerce-Webapp\SM.Infrastructure.EfCore\obj\Debug\net7.0\SM.Infrastructure.EfCore.pdb
+G:\VS Project\Ecommerce\Ecommerce-Webapp\SM.Infrastructure.EfCore\obj\Debug\net7.0\SM.Infrastructure.EfCore.genruntimeconfig.cache
+G:\VS Project\Ecommerce\Ecommerce-Webapp\SM.Infrastructure.EfCore\obj\Debug\net7.0\ref\SM.Infrastructure.EfCore.dll

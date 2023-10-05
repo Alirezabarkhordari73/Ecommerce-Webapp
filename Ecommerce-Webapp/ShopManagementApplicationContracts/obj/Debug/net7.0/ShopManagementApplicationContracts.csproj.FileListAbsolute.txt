@@ -1,0 +1,12 @@
+G:\VS Project\Ecommerce\Ecommerce-Webapp\ShopManagementApplicationContracts\bin\Debug\net7.0\ShopManagementApplicationContracts.deps.json
+G:\VS Project\Ecommerce\Ecommerce-Webapp\ShopManagementApplicationContracts\bin\Debug\net7.0\ShopManagementApplicationContracts.dll
+G:\VS Project\Ecommerce\Ecommerce-Webapp\ShopManagementApplicationContracts\bin\Debug\net7.0\ShopManagementApplicationContracts.pdb
+G:\VS Project\Ecommerce\Ecommerce-Webapp\ShopManagementApplicationContracts\obj\Debug\net7.0\ShopManagementApplicationContracts.csproj.AssemblyReference.cache
+G:\VS Project\Ecommerce\Ecommerce-Webapp\ShopManagementApplicationContracts\obj\Debug\net7.0\ShopManagementApplicationContracts.GeneratedMSBuildEditorConfig.editorconfig
+G:\VS Project\Ecommerce\Ecommerce-Webapp\ShopManagementApplicationContracts\obj\Debug\net7.0\ShopManagementApplicationContracts.AssemblyInfoInputs.cache
+G:\VS Project\Ecommerce\Ecommerce-Webapp\ShopManagementApplicationContracts\obj\Debug\net7.0\ShopManagementApplicationContracts.AssemblyInfo.cs
+G:\VS Project\Ecommerce\Ecommerce-Webapp\ShopManagementApplicationContracts\obj\Debug\net7.0\ShopManagementApplicationContracts.csproj.CoreCompileInputs.cache
+G:\VS Project\Ecommerce\Ecommerce-Webapp\ShopManagementApplicationContracts\obj\Debug\net7.0\ShopManagementApplicationContracts.dll
+G:\VS Project\Ecommerce\Ecommerce-Webapp\ShopManagementApplicationContracts\obj\Debug\net7.0\refint\ShopManagementApplicationContracts.dll
+G:\VS Project\Ecommerce\Ecommerce-Webapp\ShopManagementApplicationContracts\obj\Debug\net7.0\ShopManagementApplicationContracts.pdb
+G:\VS Project\Ecommerce\Ecommerce-Webapp\ShopManagementApplicationContracts\obj\Debug\net7.0\ref\ShopManagementApplicationContracts.dll

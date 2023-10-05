@@ -1,4 +1,4 @@
-using ECS.Infrastructure.ShopManagement.Configurations;
+using SM.Infrastructure.Configurations;
 
 namespace ServiceHost
 {
@@ -8,7 +8,7 @@ namespace ServiceHost
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            var connectionString = builder.Configuration.GetConnectionString("BlogAppDB");
+            var connectionString = builder.Configuration.GetConnectionString("ECSDataBase");
             ShopManagementBootstrapper.Configure(builder.Services, connectionString);
 
             // Add services to the container.
