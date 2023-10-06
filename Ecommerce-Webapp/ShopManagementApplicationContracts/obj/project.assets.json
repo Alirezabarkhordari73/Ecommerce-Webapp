@@ -548,7 +548,6 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "ECS.Domain >= 1.0.0",
       "ECS.Framework >= 1.0.0"
     ]
   },
@@ -585,9 +584,6 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "G:\\VS Project\\Ecommerce\\Ecommerce-Webapp\\ECS.Domain\\ECS.Domain.csproj": {
-              "projectPath": "G:\\VS Project\\Ecommerce\\Ecommerce-Webapp\\ECS.Domain\\ECS.Domain.csproj"
-            },
             "G:\\VS Project\\Ecommerce\\Ecommerce-Webapp\\Framwork\\ECS.Framework.csproj": {
               "projectPath": "G:\\VS Project\\Ecommerce\\Ecommerce-Webapp\\Framwork\\ECS.Framework.csproj"
             }

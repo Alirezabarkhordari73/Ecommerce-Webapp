@@ -1,4 +1,5 @@
-﻿using ECS.Framework.Application;
+﻿using ECS.Domain.ShopManagement.ProductCategoryAgg;
+using ECS.Framework.Application;
 
 namespace ShopManagementApplicationContracts.ProductCategory
 {
@@ -7,6 +8,6 @@ namespace ShopManagementApplicationContracts.ProductCategory
         OperationResults Create(CreateProductCategoryDto productCategoryDto);
         OperationResults Edit(EditProductCategoryDto productCategoryDto);
         List<ShowProductCategoryDto> Search(SearchProductCategoryDto searchProductCategoryDto);
-        ECS.Domain.ShopManagement.ProductCategoryAgg.ProductCategory GetDetails(long id);
+        EditProductCategoryDto GetDetails(long id);
     }
 }

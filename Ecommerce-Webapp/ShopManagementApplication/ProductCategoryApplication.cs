@@ -2,7 +2,7 @@
 using ECS.Framework.Application;
 using ShopManagementApplicationContracts.ProductCategory;
 
-namespace ShopManagementApplication 
+namespace ShopManagementApplication
 {
     public class ProductCategoryApplication : IProductCategoryApplication
     {
@@ -15,22 +15,63 @@ namespace ShopManagementApplication
 
         public OperationResults Create(CreateProductCategoryDto productCategoryDto)
         {
+            var operations = new OperationResults();
 
+            if(_productCategoryRepository.Exist(x => x.Name == productCategoryDto.Name).Result) 
+            {
+                return operations.Failed(OperationsMessages.DuplicatedRecord);
+            }
+
+            var Slug = productCategoryDto.Slug.Slugify();
+
+            var productCategory = new ProductCategory() 
+            {
+                Name = productCategoryDto.Name,
+                Description = productCategoryDto.Description,
+                Keyword = productCategoryDto.Keyword,
+                Picture = productCategoryDto.Picture,
+                PictureAlt = productCategoryDto.PictureAlt,
+                PictureTitle = productCategoryDto.PictureTitle,
+                Slug = Slug
+            };
+
+            _productCategoryRepository.Create(productCategory);
+            _productCategoryRepository.SaveChanges();
+
+            return operations.Succedded();
         }
 
         public OperationResults Edit(EditProductCategoryDto productCategoryDto)
         {
-            throw new NotImplementedException();
+            var operations = new OperationResults();
+
+            var productCategory = _productCategoryRepository.GetAsync(productCategoryDto.Id).Result;
+            if (productCategory == null) 
+            {
+                operations.Failed(OperationsMessages.RecordNotFound);
+            }
+
+            var Slug = productCategoryDto.Slug.Slugify();
+
+            productCategory.Name = productCategoryDto.Name;
+            productCategory.Description = productCategoryDto.Description;
+            productCategory.Keyword = productCategoryDto.Keyword;
+            productCategory.Picture = productCategoryDto.Picture;
+            productCategory.PictureAlt = productCategoryDto.PictureAlt;
+            productCategory.PictureTitle = productCategoryDto.PictureTitle;
+            productCategory.Slug = Slug;
+
+            return operations.Succedded();
         }
 
-        public ProductCategory GetDetails(long id)
+        public EditProductCategoryDto GetDetails(long id)
         {
-            throw new NotImplementedException();
+            return _productCategoryRepository.GetDetails(id);
         }
 
         public List<ShowProductCategoryDto> Search(SearchProductCategoryDto searchProductCategoryDto)
         {
-            throw new NotImplementedException();
+            return _productCategoryRepository.Search(searchProductCategoryDto);
         }
     }
 }

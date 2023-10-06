@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "GHVwo9EWuqUJGRxTRWUEipjwP1+2lDrdaJmJ7JkhZhM26caK0rQh7mqlVwh9oP5J/OZnht3f1+IdGc1bulxKTw==",
+  "dgSpecHash": "lGM8Oa/tQJYp02XxIixA5Q+PdnbvU9d4cJByWi8XKojkQ5zcbTGPAjC86yhpHwr4FRT2tmRY62XT4nfyuzfblw==",
   "success": true,
   "projectFilePath": "G:\\VS Project\\Ecommerce\\Ecommerce-Webapp\\ShopManagementApplication\\ShopManagementApplication.csproj",
   "expectedPackageFiles": [
+    "G:\\.nuget\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "G:\\.nuget\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "G:\\.nuget\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "G:\\.nuget\\microsoft.entityframeworkcore\\7.0.11\\microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
     "G:\\.nuget\\microsoft.entityframeworkcore.abstractions\\7.0.11\\microsoft.entityframeworkcore.abstractions.7.0.11.nupkg.sha512",
     "G:\\.nuget\\microsoft.entityframeworkcore.analyzers\\7.0.11\\microsoft.entityframeworkcore.analyzers.7.0.11.nupkg.sha512",
