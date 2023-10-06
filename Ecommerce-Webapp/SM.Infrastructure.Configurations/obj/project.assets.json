@@ -1064,11 +1064,26 @@
           "bin/placeholder/ECS.Domain.dll": {}
         }
       },
+      "ECS.Framework/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "ECS.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.11"
+        },
+        "compile": {
+          "bin/placeholder/ECS.Framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ECS.Framework.dll": {}
+        }
+      },
       "SM.Infrastructure.EfCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "ECS.Domain": "1.0.0",
+          "ECS.Framework": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.11"
         },
@@ -2905,6 +2920,11 @@
       "type": "project",
       "path": "../ECS.Domain/ECS.Domain.csproj",
       "msbuildProject": "../ECS.Domain/ECS.Domain.csproj"
+    },
+    "ECS.Framework/1.0.0": {
+      "type": "project",
+      "path": "../Framwork/ECS.Framework.csproj",
+      "msbuildProject": "../Framwork/ECS.Framework.csproj"
     },
     "SM.Infrastructure.EfCore/1.0.0": {
       "type": "project",

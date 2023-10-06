@@ -10,4 +10,9 @@
     <Folder Include="Product\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ECS.Domain\ECS.Domain.csproj" />
+    <ProjectReference Include="..\Framwork\ECS.Framework.csproj" />
+  </ItemGroup>
+
 </Project>

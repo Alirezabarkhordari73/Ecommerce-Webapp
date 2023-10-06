@@ -64,6 +64,76 @@
         }
       }
     },
+    "G:\\VS Project\\Ecommerce\\Ecommerce-Webapp\\Framwork\\ECS.Framework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\VS Project\\Ecommerce\\Ecommerce-Webapp\\Framwork\\ECS.Framework.csproj",
+        "projectName": "ECS.Framework",
+        "projectPath": "G:\\VS Project\\Ecommerce\\Ecommerce-Webapp\\Framwork\\ECS.Framework.csproj",
+        "packagesPath": "G:\\.nuget",
+        "outputPath": "G:\\VS Project\\Ecommerce\\Ecommerce-Webapp\\Framwork\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "G:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mandish\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "G:\\.nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "G:\\VS Project\\Ecommerce\\Ecommerce-Webapp\\ECS.Domain\\ECS.Domain.csproj": {
+                "projectPath": "G:\\VS Project\\Ecommerce\\Ecommerce-Webapp\\ECS.Domain\\ECS.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "G:\\VS Project\\Ecommerce\\Ecommerce-Webapp\\SM.Infrastructure.Configurations\\SM.Infrastructure.Configurations.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -175,6 +245,9 @@
             "projectReferences": {
               "G:\\VS Project\\Ecommerce\\Ecommerce-Webapp\\ECS.Domain\\ECS.Domain.csproj": {
                 "projectPath": "G:\\VS Project\\Ecommerce\\Ecommerce-Webapp\\ECS.Domain\\ECS.Domain.csproj"
+              },
+              "G:\\VS Project\\Ecommerce\\Ecommerce-Webapp\\Framwork\\ECS.Framework.csproj": {
+                "projectPath": "G:\\VS Project\\Ecommerce\\Ecommerce-Webapp\\Framwork\\ECS.Framework.csproj"
               }
             }
           }

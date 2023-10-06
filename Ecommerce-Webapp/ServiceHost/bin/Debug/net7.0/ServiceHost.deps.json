@@ -2489,6 +2489,11 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "ECS.Domain/1.0.0": {
+        "runtime": {
+          "ECS.Domain.dll": {}
+        }
+      },
       "SM.Infrastructure.Configurations/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.11",
@@ -2501,20 +2506,12 @@
       },
       "SM.Infrastructure.EfCore/1.0.0": {
         "dependencies": {
+          "ECS.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.11",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.11",
-          "SM.Infrastructure.Configurations": "1.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.11"
         },
         "runtime": {
           "SM.Infrastructure.EfCore.dll": {}
-        }
-      },
-      "ECS.Domain/1.0.0.0": {
-        "runtime": {
-          "ECS.Domain.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
         }
       }
     }
@@ -4072,6 +4069,11 @@
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
+    "ECS.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "SM.Infrastructure.Configurations/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -4079,11 +4081,6 @@
     },
     "SM.Infrastructure.EfCore/1.0.0": {
       "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "ECS.Domain/1.0.0.0": {
-      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

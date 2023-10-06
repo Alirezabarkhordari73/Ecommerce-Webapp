@@ -4,11 +4,11 @@ namespace ECS.Domain.Common
 {
     public interface IRepositoryBase<TKey,T> where T : class
     {
-        T Get(TKey id);
-        IEnumerable<T> GetAll();
-        void Create(T entity);
-        bool Exist(Expression<Func<T,bool>>expression);
-        void SaveChanges();
+        Task<T> GetAsync(TKey id);
+        Task<IEnumerable<T>> GetAllAsync();
+        Task Create(T entity);
+        Task<bool> Exist(Expression<Func<T,bool>>expression);
+        Task SaveChanges();
 
     }
 }
